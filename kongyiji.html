@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>这长衫你真的要“脱”吗？</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.2/echarts.min.js"
+      integrity="sha512-VdqgeoWrVJcsDXFlQEKqE5MyhaIgB9yXUVaiUa8DR2J4Lr1uWcFm+ZH/YnzV5WqgKf4GPyHQ64vVLgzqGIchyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/vintage.js"></script>
+    <script src="js/shine.js"></script>
+    <script src="js/macarons.js"></script>
+    <script src="js/infographic.js"></script>
+    <script src="js/roma.js"></script>
+  </head>
+  <body>
+    <div class="top-banner"></div>
+    <div class="top-bar">
+      <h2>“学历不但是敲门砖，也是我下不来的高台，更是孔乙己脱不下的长衫”</h2>
+    </div>
+    <div class="center">
+      <p>
+        近日一条关于大学生脱去长衫的视频引起了全网的热议。视频中的博主曾分享过自己多次碰壁企业面试的经历，并且在该视频中她分享了自己干一天洗车工赚了480块的经历。视频中底下一天评论说道：“以前坐在办公室是心累，要好久才能消化。现在干体力活是身体累，睡一觉就好了。”引起众多网友的点赞支持。
+      </p>
+      <p class="second-p">
+        孔乙己的长衫出自鲁迅短篇小说《孔乙己》，孔乙己是鲁迅小说中的经典人物形象。小说中主人公孔乙己努力学习知识耗尽年华，最后却一无所得。即便如此，他也不愿脱去象征着读书人身份的长衫。这也被用来形容当代大学生找工作的境况，接受了多年教育的他们是否愿意去从事一份相对平庸的工作。就大学生该不该脱去长衫这一话题，网络上展开了热烈的争论。孔乙己文学其实是读书无用论的另一种说法，大家难以接受理想与现实存在的差距，自恃拥有的学历无法接受低门槛工作。
+      </p>
+      <div class="description">
+        <div class="left-k">
+          <div class="img">
+            <img src="./imgs/guan.png" alt="" />
+          </div>
+          <p class="sub">—官方报道—</p>
+        </div>
+        <div class="right-k">
+          <div class="img">
+            <img src="./imgs/wang.png" alt="" />
+          </div>
+          <p class="sub">—网友评论—</p>
+        </div>
+      </div>
+      <p class="p-source" style="margin: 15px 0">词云来源：微博有关话题点赞前70评论内容</p>
+      <p>
+        央视、网易新闻、极目新闻、人民网等官方媒体均对孔乙己事件进行了评论，官媒态度基本一致，以央媒《正视孔乙己文学背后的焦虑》为例，本想正面宣传引导和鼓励当代大学生放下身段融入社会，没想却遭遇网友群嘲。网友评论和官方报道的态度呈截然不同的态势。
+      </p>
+      <p>
+        官方报道中，“学历”一词提及最多，更注重强调大家对学历的追崇；而网友评论提及最多的是“年轻人”，大家深知自己的身份和责任，但是也苦闷于现状，当前就业环境年轻人压力很大，十分被动。
+      </p>
+      <p class="second-p">
+        孔乙己文学在社交媒体上引发绝大多数人热议，百度指数中显示，主要关注人群在20岁到29岁之间，大多都是本科毕业及以上学历或出国留学人群。此类人群在教育上投入大量资金或耗费大量时间，却很难找到一个投入与回报足够匹配的工作。现实与过去所说的“大学生出了学校就能坐进办公室当白领”大相径庭，这样巨大的落差让人无法满足于现状。
+      </p>
+      <div id="main1" style="width: 600px; height: 400px"></div>
+      <p class="p-source" style="margin-top:-50px;">数据来源：百度指数</p>
+    </div>
+    <div class="top-bar">
+      <h2>那么是什么原因导致接受了高等教育的毕业生找不到满意工作的现状呢?</h2>
+    </div>
+    <div class="center">
+      <p>
+        根据国家统计局数据显示，我国高校毕业生逐年增多，2023年可能突破1300万高校毕业生，各大高校毕业生就业压力增大，这给企业也带来了不少压力。根据2022年猎聘对企业的调研数据，央企国企招聘人数增加比例稍多，上市公司较为稳定，大型民营企业和中小型公司、创新创业公司招聘规模均有32%以上减少。
+      </p>
+      <p>
+        企业招聘规模并没有因为新增毕业生岗位的需求增大而相应的扩招，因此对于现在的毕业生来说，如果不想“低就”，找到一份合适满意的工作较为困难。
+      </p>
+      <div class="pole-wrapper">
+        <div id="main2" style="width: 600px; height: 400px"></div>
+        <p class="p-source-pole1">数据来源：国家统计局</p>
+        <div id="main3" style="width: 600px; height: 400px"></div>
+        <p class="p-source-pole2">数据来源：猎聘企业端调研</p>
+      </div>
+      <p>
+        根据猎聘校园对企业重点关注职业类型可知，技术研发类、产品运营类较受欢迎，因此高校毕业生需精于技能，学好专业知识，提升自身能力。技能要求高的企业也十分注重实习、工作经验，高校毕业生应尽早实践，提升自己的核心竞争力，才有机会在毕业后有更好的去向。
+      </p>
+      <div id="main4" style="width: 600px; height: 400px"></div>
+      <p class="p-source-pole3" style="text-align:center;">数据来源：猎聘校园</p>
+      <p class="second-p">
+        为什么高学历学生们会开始纠结要不要脱下长衫呢？看到身边没有接受过高等教育但通过自己的劳动获得了理想收入的同龄人不禁让大家开始思考脱下长衫或许会有更好的发展。
+      </p>
+      <p class="second-p">
+        据麦可思历年中国大学生报告得知，2016-2020年我国大学生平均月收入至2020年为5833。但是看到部分新闻报导：大学生送外卖、清华大学生回乡养猪创业、95后毕业生靠创业“收破烂”月入五位数，大家对这些脱下长衫的例子都会引发激烈的讨论。这与我们所了解的大学生就业岗位大相径庭，但是他们的收入有些远高于大学生平均收入。
+      </p>
+      <div id="main5" style="width: 600px; height: 400px"></div>
+      <p class="p-source-pole4" style="text-align:center;">数据来源：麦可思-历年中国大学生报告</p>
+      
+      <p style="margin:15px 0;">
+        
+        或许着眼当下，应届毕业生的收入可能并不如脱下长衫的工种，但眼光放长远来看，学历决定的是发展的上限。随着工作年限的增加，工作经验不断累积，自身价值相比于初入职场的到了更大的提升，收入也更加理想。简单机械的劳动或许不需要经验的过多积累，但收入提升空间不大，且对身体素质有着高度的要求，简单来说就是“青春饭”。
+      </p>
+      <div class="xb">
+        <div id="main7" style="width: 800px; height: 600px"></div>
+        <p class="p-source-pole5">数据来源：麦可思跟踪数据</p>
+      </div>
+      <div class="xb">
+        <div id="main8" style="width: 720px; height: 500px"></div>
+        <p class="p-source-pole5">数据来源：广东省教育厅</p>
+        <p>但就业不是毕业生唯一的选择，还有一些道路同样可以实现自身的价值。</p>
+      </div>
+      
+      </div>
+      <div class="top-bar">
+        <h2>毕业不就业，其他赛道又如何呢？</h2>
+      </div>
+      <div class="center">
+      <div class="xb">
+        <h3 style="text-align:center;margin-bottom:20px;">2021-2022届中国高校毕业生就业去向（单位：万人）</h3>
+        <div style="width: 800px; height: 600px" id="main9"></div>
+        <p class="p-source-pole5" style="margin-top:-40px;margin-bottom:20px;">数据来源：梧桐果</p>
+        <p>毕业生将视线投放在企业就业和公务员事业单位上，但岗位有限导致多数人选择读研深造提高竞争力，毕业生人数的增多也导致公务员考试报名人数大大增多。</p>
+        <div style="width: 700px; height: 500px" id="main10"></div>  
+        <p class="p-source-pole5" style="margin-bottom:20px;">数据来源：国家统计局</p>
+        </div>
+      <p style="margin: 15px 0">
+        
+        
+      </p>
+      <p style="margin: 15px 0">
+        孔乙己脱不下的长衫反映了很多人在就业过程中出现的“期望与现实不相符”的处境，可选择的岗位相对于毕业生人数来说数量较少，于是年轻人纷纷挤入考公、考研赛道。脱下长衫者远远高出毕业生的平均收入让年轻人们产生动摇，这长衫脱还是不脱。
+        学历不是真正的“长衫”，学了但不会用，只有一张文凭才是真正的“脱不下的长衫”。
+        将知识转化为行动，学历的价值，才能够在实践中得以体现。为社会做出贡献远比社会地位、高额收入更重要。
+        长衫应该是锦上添花，而不应成为下不来的高台。长衫脱或不脱不应是绝对的，可以脱下长衫一步一个脚印，也可以穿上长衫如虎添翼飞得更高，更大的实现自身价值。
+        
+      </p>
+    </div>
+  
+    <div class="bot">
+      <div class="bot-content">
+        数据来源：微博、国家统计局、百度指数、广东省教育厅、猎聘、麦可思、梧桐果。
+        <br />
+        使用工具：可画canva、八爪鱼采集器、新榜词云生成、echarts、vs code。
+        <br />
+        单位：武汉传媒学院新闻传播学院
+        <br />
+        指导老师：马旻、凡娅慧
+        <br />
+        团队成员：杨佳怡 黄蕊 柳江月
+        <br />
+        联系方式：1468719538@qq.com
+      </div>
+    </div>
+    <script>
+      var myChart1 = echarts.init(document.getElementById("main1"),'shine')
+      option = {
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: {
+      type: 'cross',
+      crossStyle: {
+        color: '#999'
+      }
+    }
+  },
+  toolbox: {
+    feature: {
+      dataView: { show: true, readOnly: false },
+      magicType: { show: true, type: ['line', 'bar'] },
+      restore: { show: true },
+      saveAsImage: { show: true }
+    }
+  },
+  legend: {
+    data: ['孔乙己', '全网分布', 'TGI']
+  },
+  xAxis: [
+    {
+      type: 'category',
+      data: ['<=19', '20~29', '30~39', '40~49', '>=50'],
+      axisPointer: {
+        type: 'shadow'
+      }
+    }
+  ],
+  yAxis: [
+    {
+      type: 'value',
+      name: '年龄分布',
+      min: 0,
+      max: 50,
+      interval: 10,
+      axisLabel: {
+        formatter: '{value}%'
+      }
+    },
+    {
+      type: 'value',
+      name: 'TGI',
+      min: 0,
+      max: 200,
+      interval: 40,
+      axisLabel: {
+        formatter: '{value}'
+      }
+    }
+  ],
+  series: [
+    {
+      name: '孔乙己',
+      type: 'bar',
+      tooltip: {
+        valueFormatter: function (value) {
+          return value + '%';
+        }
+      },
+      data: [
+        11.65, 42.3, 29.05, 12.05, 4.95
+      ]
+    },
+    {
+      name: '全网分布',
+      type: 'bar',
+      tooltip: {
+        valueFormatter: function (value) {
+          return value + '%';
+        }
+      },
+      data: [
+        8.13, 23.59, 36.42, 20.11, 11.76
+      ]
+    },
+    {
+      name: 'TGI',
+      type: 'line',
+      yAxisIndex: 1,
+      tooltip: {
+        valueFormatter: function (value) {
+          return value;
+        }
+      },
+      data: [143.32, 179.32, 79.77, 59.93, 42.08]
+    }
+  ]
+};
+      // 使用刚指定的配置项和数据显示图表。
+      myChart1.setOption(option)
+      var myChart1 = echarts.init(document.getElementById("main2"),'shine')
+      // option2 = {
+      //   title: {
+      //     text: "2010-2022年历年高校毕业生人数",
+      //     subtext: "单位：万人",
+      //     left: "center",
+      //   },
+      //   legend: {
+      //     show: false,
+      //     textStyle: {
+      //       color: "#fff", //更改标签颜色为白色
+      //     },
+      //   },
+      //   // grid: {
+      //   //   left: "3%",
+      //   //   right: "4%",
+      //   //   bottom: "3%",
+      //   //   containLabel: true,
+      //   // },
+      //   xAxis: {
+      //     show: false,
+      //     // type: "value",
+      //     // boundaryGap: [0, 0.01],
+      //     splitLine: {
+      //       show: false,
+      //     },
+      //   },
+      //   yAxis: {
+      //     splitLine: {
+      //       show: false,
+      //     },
+      //     type: "category",
+      //     data: [
+      //       "2010",
+      //       "2011",
+      //       "2012",
+      //       "2013",
+      //       "2014",
+      //       "2015",
+      //       "2016",
+      //       "2017",
+      //       "2018",
+      //       "2019",
+      //       "2020",
+      //       "2021",
+      //       "2022",
+      //     ],
+      //   },
+      //   series: [
+      //     {
+      //       name: "2011",
+      //       type: "bar",
+      //       data: [
+      //         631, 660, 680, 699, 727, 749, 765, 795, 820, 834, 874, 909, 1076,
+      //       ],
+      //       label: {
+      //         show: true,
+      //         position: "right",
+      //         valueAnimation: true,
+      //       },
+      //     },
+      //   ],
+      // }
+      option2 = {
+  xAxis: {
+    type: 'category',
+    data: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
+  },
+  yAxis: {
+    type: 'value',
+    name: '毕业人数（万人）',
+      min: 600,
+      max: 1200,
+      interval: 100,
+      axisLabel: {
+        formatter: '{value}'
+      }
+  },
+  series: [
+    {
+      data: [631, 660, 680, 699, 727, 749, 765, 795, 820, 834, 874, 909, 1076],
+      type: 'line',
+      symbol: 'triangle',
+      symbolSize: 20,
+      lineStyle: {
+        color: '#5470C6',
+        width: 4,
+        type: 'dashed'
+      },
+      itemStyle: {
+        borderWidth: 3,
+        borderColor: '#EE6666',
+        color: 'yellow'
+      }
+    }
+  ]
+};
+      myChart1.setOption(option2)
+      var myChart1 = echarts.init(document.getElementById("main3"),'shine')
+      option3 = {
+        title: {
+          text: "不同类型的企业招聘规模变化",
+          subtext: "单位：%",
+          left: "center",
+        },
+        legend: { show: true, bottom: 1 },
+        grid: {
+          left: "3%",
+          right: "4%",
+          bottom: "3%",
+          containLabel: true,
+        },
+        toolbox: {
+          show: false,
+          feature: {
+            mark: false,
+            markUndo: false,
+            markClear: false,
+            dataZoom: false,
+            dataZoomReset: "区域缩放后退",
+            dataView: false,
+            lineChart: false,
+            barChart: false,
+            restore: false,
+            saveAsImage: false,
+          },
+        },
+        xAxis: {
+          show: false,
+          type: "value",
+          splitLine: {
+            show: false,
+          },
+        },
+        yAxis: {
+          type: "category",
+          splitLine: {
+            show: false,
+          },
+          data: [
+            "央/国企",
+            "上市公司",
+            "大型民营企业",
+            "中小型企业",
+            "创新创业公司",
+          ],
+        },
+        series: [
+          {
+            name: "持平",
+            type: "bar",
+            stack: "total",
+            label: {
+              show: true,
+              formatter: function (params) {
+                return params.value + "%"
+              },
+            },
+            emphasis: {
+              focus: "series",
+            },
+            data: [20, 19, 25, 13, 11],
+          },
+          {
+            name: "增加",
+            type: "bar",
+            stack: "total",
+            label: {
+              show: true,
+              formatter: function (params) {
+                return params.value + "%"
+              },
+            },
+            emphasis: {
+              focus: "series",
+            },
+            data: [32, 31, 27, 27, 23],
+          },
+          {
+            name: "减少",
+            type: "bar",
+            stack: "total",
+            label: {
+              show: true,
+              formatter: function (params) {
+                return params.value + "%"
+              },
+            },
+            emphasis: {
+              focus: "series",
+            },
+            data: [28, 31, 32, 34, 33],
+          },
+          {
+            name: "随时按需调整",
+            type: "bar",
+            stack: "total",
+            label: {
+              show: true,
+              formatter: function (params) {
+                return params.value + "%"
+              },
+            },
+            emphasis: {
+              focus: "series",
+            },
+            data: [20, 19, 16, 26, 33],
+          },
+        ],
+      }
+      myChart1.setOption(option3)
+      var myChart1 = echarts.init(document.getElementById("main4"),'shine')
+      option4 = {
+        title: {
+          text: "企业重点关注职业类型(单位%)",
+          subtext: "单位：%",
+          left: "center",
+        },
+        tooltip: {
+          trigger: "item",
+        },
+        legend: { show: true, bottom: 10 },
+        series: [
+          {
+            name: "职业类型",
+            type: "pie",
+            radius: ["40%", "70%"],
+            avoidLabelOverlap: false,
+            label: {
+              show: true,
+              formatter: function (params) {
+                return params.name + params.value + "%"
+              },
+            },
+            labelLine: {
+              show: false,
+            },
+            data: [
+              { value: 13.9, name: "职能类" },
+              { value: 3.4, name: "电子商务" },
+              { value: 9.82, name: "工程制造类" },
+              { value: 12.71, name: "销售管理类" },
+              { value: 19.49, name: "产品运营类" },
+              { value: 40.68, name: "技术研发" },
+            ],
+          },
+        ],
+      }
+      myChart1.setOption(option4)
+      var myChart1 = echarts.init(document.getElementById("main5"),'shine')
+      option5 = {
+        title: {
+          text: "2016-2020本科毕业生平均月收入",
+          left: "center",
+        },
+        tooltip: {
+          trigger: "item",
+          formatter: "{a} <br/>{b} : {c}",
+        },
+        legend: {
+          show: false,
+        },
+        xAxis: {
+          boundaryGap: false,
+          type: "category",
+          name: "年",
+          splitLine: { show: true },
+          data: ["2016", "2017", "2018", "2019", "2020"],
+        },
+        grid: {
+          left: "3%",
+          right: "4%",
+          bottom: "3%",
+          containLabel: true,
+        },
+        yAxis: {
+          type: "value",
+          name: "单位：元",
+          min: 4200,
+          max: 6000,
+          data: [1111, 2222, 3333],
+          axisLabel: {
+            formatter: function (val) {
+              return val
+            },
+          },
+        },
+        series: [
+          {
+            name: "平均月收入",
+            type: "line",
+            data: [4376, 4774, 5135, 5440, 5833],
+            areaStyle: {},
+          },
+        ],
+      }
+      myChart1.setOption(option5)
+   
+      var myChart6 = echarts.init(document.getElementById("main6"))
+      option6 = {
+        xAxis: {
+          type: "category",
+          data: [
+            "杭州",
+            "北京",
+            "南京",
+            "上海",
+            "深圳",
+            "广州",
+            "武汉",
+            "成都",
+            "西安",
+            "重庆",
+          ],
+        },
+        yAxis: {
+          type: "value",
+        },
+        series: [
+          {
+            data: [9121, 9072, 8728, 8481, 7969, 7444, 7151, 7144, 6985, 6424],
+            type: "bar",
+            label: {
+              show: true,
+              position: "top",
+              valueAnimation: true,
+            },
+          },
+        ],
+      }
+      // 使用刚指定的配置项和数据显示图表。
+      myChart6.setOption(option6)
+  </script>
+  <script>
+      var myChart7 = echarts.init(document.getElementById("main7"),'shine')
+      option7 = {
+        // color:["#ee6666","#5470c6"],
+  title: {
+    text: '本科生毕业三年后月收入较高的职业类',
+    subtext: '单位：元'
+  },
+  tooltip: {
+    trigger: 'axis'
+  },
+  legend: {
+    data: ['应届', '毕业三年后']
+  },
+  toolbox: {
+    show: true,
+    feature: {
+      dataView: { show: true, readOnly: false },
+      magicType: { show: true, type: ['line', 'bar'] },
+      restore: { show: true },
+      saveAsImage: { show: true }
+    }
+  },
+  calculable: true,
+  xAxis: [
+    {
+      type: 'category',
+      // prettier-ignore
+      data: ['互联网开发及应用', '计算机与数据处理', '房地产经理', '交通运输/邮电', '经营管理', '金融', '电气/电子', '销售', '美术/设计/创意', '律师/律政调查员'],
+      axisLabel: {
+            rotate: -45, // 将文字旋转-45度
+            interval: 0, // 设置文字之间的间距为0
+            fontSize: 10, // 设置 X 轴文字的大小为16像素
+          },
+    }
+    
+  ],
+  yAxis: [
+    {
+      type: 'value'
+    }
+  ],
+  series: [
+    {
+      name: '应届',
+      type: 'bar',
+      data: [
+        5679, 5636, 5057, 4978, 4971, 4789, 4597, 4505, 4153, 3844
+      ],
+      markPoint: {
+        data: [
+          { type: 'max', name: 'Max' },
+          { type: 'min', name: 'Min' }
+        ]
+      },
+      markLine: {
+        data: [{ type: 'average', name: 'Avg' }]
+      }
+    },
+    {
+      name: '毕业三年后',
+      type: 'bar',
+      data: [
+        11025, 10771, 8613, 8109, 9280, 8592, 9051, 8252, 8268, 8211
+      ],
+      markPoint: {
+        data: [
+          { name: 'Max', value: 11025, xAxis: 0, yAxis: 11025 },
+          { name: 'Min', value: 8109, xAxis: 3, yAxis: 8109 }
+        ]
+      },
+      markLine: {
+        data: [{ type: 'average', name: 'Avg' }]
+      }
+    }
+  ]
+};
+      // 使用刚指定的配置项和数据显示图表。
+      myChart7.setOption(option7);
+
+      var myChart8 = echarts.init(document.getElementById('main8'))
+      option8 = {
+         color:["#FFAB91","#FDD835"],
+  title: {
+    text: '不同学历职场薪酬按工作经验分析'
+  },
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: {
+      type: 'shadow'
+    }
+  },
+  legend: {},
+  grid: {
+    left: '3%',
+    right: '4%',
+    bottom: '3%',
+    containLabel: true
+  },
+  xAxis: {
+    type: 'value',
+    boundaryGap: [0, 0.01]
+  },
+  yAxis: {
+    type: 'category',
+    data: ['本科', '硕士', '博士']
+  },
+  series: [
+    {
+      name: '毕业三年后',
+      type: 'bar',
+      data: [6993, 8765, 15250]
+    },
+    {
+      name: '应届',
+      type: 'bar',
+      data: [4756, 6800, 13308]
+    }
+  ]
+};
+      myChart8.setOption(option8);   
+
+      var myChart9 = echarts.init(document.getElementById("main9"))
+      setTimeout(function () {
+  option9 = {
+    legend: {},
+    tooltip: {
+      trigger: 'axis',
+      showContent: false
+    },
+    dataset: {
+      source: [
+        ['毕业去向', '2021', '2022'],
+        ['考研',311.79,439.01],
+        ['创业', 33.63,46.27],
+        ['出国深造', 23.63,22.60],
+        ['企业就业',376.32,369.07],
+        ['公务员事业单位', 152.71,189.37],
+        ['其他', 10.00,11.84]
+      ]
+    },
+    xAxis: { type: 'category' },
+    yAxis: { gridIndex: 0 },
+    grid: { top: '55%' },
+    series: [
+      {
+        type: 'line',
+        smooth: true,
+        seriesLayoutBy: 'row',
+        emphasis: { focus: 'series' }
+      },
+      {
+        type: 'line',
+        smooth: true,
+        seriesLayoutBy: 'row',
+        emphasis: { focus: 'series' }
+      },
+      {
+        type: 'line',
+        smooth: true,
+        seriesLayoutBy: 'row',
+        emphasis: { focus: 'series' }
+      },
+      {
+        type: 'line',
+        smooth: true,
+        seriesLayoutBy: 'row',
+        emphasis: { focus: 'series' }
+      },
+      {
+        type: 'line',
+        smooth: true,
+        seriesLayoutBy: 'row',
+        emphasis: { focus: 'series' }
+      },
+      {
+        type: 'line',
+        smooth: true,
+        seriesLayoutBy: 'row',
+        emphasis: { focus: 'series' }
+      },
+      {
+        type: 'pie',
+        id: 'pie',
+        radius: '30%',
+        center: ['50%', '25%'],
+        emphasis: {
+          focus: 'self'
+        },
+        label: {
+          formatter: '{b}: {@2021} ({d}%)'
+        },
+        encode: {
+          itemName: '毕业去向',
+          value: '2021',
+          tooltip: '2021'
+        }
+      }
+    ]
+  };
+  myChart9.on('updateAxisPointer', function (event) {
+    const xAxisInfo = event.axesInfo[0];
+    if (xAxisInfo) {
+      const dimension = xAxisInfo.value + 1;
+      myChart9.setOption({
+        series: {
+          id: 'pie',
+          label: {
+            formatter: '{b}: {@[' + dimension + ']} ({d}%)'
+          },
+          encode: {
+            value: dimension,
+            tooltip: dimension
+          }
+        }
+      });
+    }
+  });
+  myChart9.setOption(option9);
+});
+      // myChart9.setOption(option9); 
+      var chartDom10 = document.getElementById('main10');
+	var myChart10 = echarts.init(chartDom10);
+	var option10;
+	var dataBar = ["2022","2021","2020","2019","2018"]
+	var sdata = [457,377,341,290,238]
+	var srdata = [-202,-150,-140,-141,-183]
+	option10 = {
+	  title: {
+	    text: '2018-2022年中国公务员/研究生考试报名人数（单位：万人）'
+	  },
+	  color:["#fdd866","#ef7f23"],
+	  legend: {
+      data:['公务员','研究生'],
+	    orient: 'horizontal',
+      left:'right'
+	  },
+	  grid: {
+	    left: '3%',
+	    right: '4%',
+	    bottom: '3%',
+	    containLabel: true
+	  },
+	  xAxis: [{
+		  type:'value',
+		  axisLabel:{
+			  formatter:(p)=>{console.log('p',p)
+			  			  if(p<0){
+			  				  return -p
+			  			  }else{
+			  				  return p
+			  			  }
+			  }
+		  },
+		  axisTick:{
+		  	alignWithLabel:true
+		  }
+	  }],
+	  yAxis: {
+	    type: 'category',
+	    data: dataBar,
+		axisTick:{
+			alignWithLabel:true
+		}
+	  },
+	  series: [
+	    {
+        name:'公务员',
+	      type: 'bar',
+	      data: srdata,
+		  label:{
+			  show:true,
+			  formatter:(d)=>{
+				  console.log(d.data)
+				  return Math.abs(d.data)
+			  },
+			  position:"left"
+		  },
+		  stack:'hdt'
+	    },
+		{
+      name:'研究生',
+		  type: 'bar',
+		  data: sdata,
+		  label:{
+			  show:true,
+			  formatter:(d)=>{
+				  console.log(d.data)
+				  return d.data
+			  },
+			  position:"right"
+		  },
+		  stack:'hdt'
+		},
+	  ]
+	};
+	option10 && myChart10.setOption(option10);
+    </script>
+  </body>
+</html>
