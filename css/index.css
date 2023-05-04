@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../imgs/bg.png");
+  background-size: cover;
+}
+.top-banner {
+  width: 100%;
+  height: 536px;
+}
+.top-bar {
+  width: 100%;
+  /* height: 80px; */
+  background-color: #f9e6dc;
+  margin:20px 0;
+}
+p {
+  color: #60582f;
+}
+.top-bar h2 {
+  /* text-align: center;
+  line-height: 72px;
+  color: #a90000;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 44px; */
+  text-align: center;
+  line-height: 72px;
+  color: #a90000;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 40px;
+}
+.top-bar .c {
+  text-align: center;
+  line-height: 72px;
+  color: #a90000;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 40px;
+}
+.center {
+  padding: 0 200px;
+}
+.center .second-p {
+  margin-top: 15px;
+}
+.description {
+  margin-top: 15px;
+  overflow: hidden;
+}
+.description .left-k {
+  width: 300px;
+  /* height: 300px; */
+  float: left;
+  margin-left:30px;
+}
+.description .left-k .img {
+  width: 300px;
+  /* height: 250px; */
+}
+.description .left-k .img img,
+.description .right-k .img img {
+  width: 100%;
+  /* height: 100%; */
+}
+.description .left-k p {
+  text-align: center;
+  margin-top: 15px;
+}
+.description .right-k {
+  width: 340px;
+  /* height: 300px; */
+  float: right;
+  margin-right:30px;
+}
+.sub {
+  font-size: 18px;
+  font-weight: 800;
+}
+.description .right-k .img {
+  width: 100%;
+  /* height: 250px; */
+}
+.description .right-k p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.test {
+  width: 100%;
+  height: 350px;
+  background-color: darkgoldenrod;
+}
+#main1,
+#main4,
+#main5,
+#main6,
+#main7,
+#main8,#main9,#main10 {
+  margin: 10px auto;
+}
+.pole-wrapper {
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+  /* width: 100%; */
+  /* height: 100%; */
+  background-color: #f7eeea;
+  border-radius: 45px;
+  padding: 50px;
+  margin: 35px auto;
+}
+#main2,#main3{
+  /* background-color: #fff; */
+}
+p{
+  text-indent:2em;
+}
+.p-source-pole1 {
+  position: absolute;
+  left: 6%;
+  bottom: 70px;
+}
+.p-source-pole2 {
+  position: absolute;
+  right: 6%;
+  bottom: 15px;
+}
+.xb{
+  margin:10px auto;
+
+}
+.p-source-pole5{
+  text-align:center;
+}
+.xb img {
+  width: 100%;
+  height: 100%;
+}
+.bot {
+  width: 100%;
+  height: 300px;
+  background-color: #977b0034;
+}
+.bot-content {
+  padding: 0 200px;
+  line-height: 50px;
+}
+.p-source, .p-source-pole1, .p-source-pole2, .p-source-pole3, .p-source-pole4, .p-source-pole5{
+  text-align: center;
+  color:#666;
+  font-size:14px;
+  text-indent:0;
+}
